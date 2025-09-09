@@ -1,0 +1,34 @@
+.dduplex{
+    margin: 80px auto;
+    width: 90%;
+    display:flex; 
+    align-items:center;
+    justify-content: space-between; 
+}
+.dduplex1 img{
+    width: 100%;
+    padding: 5px;
+    border-radius: 10px;
+    display: block;
+}
+.dduplex1{
+    flex-basis: 31;
+}
+.ddupplex img{
+    padding-left: 10px;
+    width: 100%;
+}
+.duplex3 img{
+    width: 150%;
+}
+
+/* .img duplex4j{
+    width:10%;
+    border-radius: 10px;
+    display:block;
+}
+.img duplex5j{
+    width:10%;
+    border-radius: 10px;
+    display:block;
+} */
