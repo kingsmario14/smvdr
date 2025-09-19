@@ -12,7 +12,7 @@ const Contact =() =>{
     const [description, setDescription] = useState("");
 const submitform = async()=>{
     const newUser = {firstname, lastname, description};
-    let myUser = await axios.post("http://localhost:8000/register", newUser)
+    let myUser = await axios.post("https://smvdr-bosp.vercel.app/register", newUser)
     console.log(myUser.data);
 }
     return(
